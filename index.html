@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elite2k24 - Tech Innovation Summit</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <!-- AOS Animation CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    
+    
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">ELITE2K24</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#schedule">Schedule</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#speakers">Speakers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sponsors">Sponsors</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-content" data-aos="fade-up">
+            <h1>ELITE2K24</h1>
+            <p>Where Innovation Meets Excellence - Join the Ultimate Tech Innovation Summit</p>
+            <div class="countdown-timer">
+                <div class="countdown-item">
+                    <span class="countdown-number" id="days">00</span>
+                    <span class="countdown-label">Days</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="countdown-number" id="hours">00</span>
+                    <span class="countdown-label">Hours</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="countdown-number" id="minutes">00</span>
+                    <span class="countdown-label">Minutes</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="countdown-number" id="seconds">00</span>
+                    <span class="countdown-label">Seconds</span>
+                </div>
+            </div>
+            <div class="mt-4">
+                <button class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#registerModal">
+                    <i class="fas fa-user-plus"></i> Register Now
+                </button>
+                <a href="#about" class="btn btn-outline-light btn-lg">
+                    <i class="fas fa-arrow-down"></i> Learn More
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-padding">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>About Elite2k24</h2>
+                <p>The premier tech innovation summit bringing together the brightest minds in technology</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 mb-4" data-aos="fade-right">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h4><i class="fas fa-trophy text-warning"></i> Grand Prize Pool</h4>
+                            <p>Compete for over $50,000 in prizes across multiple categories including AI/ML, Web Development, Mobile Apps, and IoT solutions.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-4" data-aos="fade-left">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h4><i class="fas fa-users text-primary"></i> Networking</h4>
+                            <p>Connect with industry leaders, startup founders, and fellow innovators from around the globe.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-4" data-aos="fade-right">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h4><i class="fas fa-lightbulb text-success"></i> Innovation Themes</h4>
+                            <p>Explore cutting-edge themes: AI & Machine Learning, Sustainable Tech, FinTech, and Healthcare Innovation.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-4" data-aos="fade-left">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h4><i class="fas fa-rocket text-danger"></i> Startup Launchpad</h4>
+                            <p>Get your startup idea funded with our pitch competition and mentorship program.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Schedule Section -->
+    <section id="schedule" class="section-padding bg-light">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>Event Schedule</h2>
+                <p>Three days of intensive innovation, learning, and networking</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-content">
+                        <h4>Day 1 - Registration & Kickoff</h4>
+                        <p><strong>March 15, 2024</strong></p>
+                        <ul>
+                            <li>9:00 AM - Registration Opens</li>
+                            <li>11:00 AM - Opening Ceremony</li>
+                            <li>2:00 PM - Keynote Presentations</li>
+                            <li>4:00 PM - Team Formation</li>
+                            <li>6:00 PM - Networking Dinner</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-left">
+                    <div class="timeline-content">
+                        <h4>Day 2 - Innovation Marathon</h4>
+                        <p><strong>March 16, 2024</strong></p>
+                        <ul>
+                            <li>9:00 AM - Hackathon Begins</li>
+                            <li>11:00 AM - Technical Workshops</li>
+                            <li>1:00 PM - Lunch & Mentorship</li>
+                            <li>3:00 PM - Development Sprint</li>
+                            <li>8:00 PM - Progress Check-in</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-content">
+                        <h4>Day 3 - Finals & Awards</h4>
+                        <p><strong>March 17, 2024</strong></p>
+                        <ul>
+                            <li>9:00 AM - Final Preparations</li>
+                            <li>11:00 AM - Project Presentations</li>
+                            <li>2:00 PM - Judging & Deliberation</li>
+                            <li>4:00 PM - Awards Ceremony</li>
+                            <li>6:00 PM - Closing Reception</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Speakers Section -->
+    <section id="speakers" class="section-padding">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>Featured Speakers</h2>
+                <p>Learn from industry leaders and tech visionaries</p>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="speaker-card">
+                        <div class="speaker-img">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <h4>Dr. Sarah Chen</h4>
+                        <p class="text-muted">Chief AI Officer, TechCorp</p>
+                        <p>Expert in Machine Learning and AI Ethics with 15+ years experience</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="speaker-card">
+                        <div class="speaker-img">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <h4>Michael Rodriguez</h4>
+                        <p class="text-muted">Founder, InnovateLab</p>
+                        <p>Serial entrepreneur and startup mentor with multiple successful exits</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="speaker-card">
+                        <div class="speaker-img">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <h4>Lisa Thompson</h4>
+                        <p class="text-muted">VP of Innovation, FutureTech</p>
+                        <p>Leading expert in sustainable technology and green innovation</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sponsors Section -->
+    <section id="sponsors" class="section-padding bg-light">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>Our Sponsors</h2>
+                <p>Proudly supported by leading technology companies</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="sponsor-logo">TechCorp</div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="sponsor-logo">InnovateLab</div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="sponsor-logo">FutureTech</div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="sponsor-logo">DevSolutions</div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4" data-aos="fade-up" data-aos-delay="500">
+                    <div class="sponsor-logo">CloudTech</div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4" data-aos="fade-up" data-aos-delay="600">
+                    <div class="sponsor-logo">DataFlow</div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4" data-aos="fade-up" data-aos-delay="700">
+                    <div class="sponsor-logo">NextGen</div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4" data-aos="fade-up" data-aos-delay="800">
+                    <div class="sponsor-logo">CyberSafe</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h5>Elite2k24</h5>
+                    <p>The premier tech innovation summit bringing together the brightest minds in technology.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#schedule">Schedule</a></li>
+                        <li><a href="#speakers">Speakers</a></li>
+                        <li><a href="#sponsors">Sponsors</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Contact Info</h5>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Tech Street, Innovation City, IC 12345</p>
+                    <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                    <p><i class="fas fa-envelope"></i> info@elite2k24.com</p>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="text-center">
+                <p>&copy; 2024 Elite2k24. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Registration Modal -->
+    <div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="registerModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="registerModalLabel">Register for Elite2k24</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="registrationForm">
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label for="firstName" class="form-label">First Name *</label>
+                                <input type="text" class="form-control" id="firstName" required>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="lastName" class="form-label">Last Name *</label>
+                                <input type="text" class="form-control" id="lastName" required>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email Address *</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="phone" class="form-label">Phone Number *</label>
+                            <input type="tel" class="form-control" id="phone" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="teamName" class="form-label">Team Name (Optional)</label>
+                            <input type="text" class="form-control" id="teamName">
+                        </div>
+                        <div class="mb-3">
+                            <label for="category" class="form-label">Event Category *</label>
+                            <select class="form-control" id="category" required>
+                                <option value="">Select Category</option>
+                                <option value="ai-ml">AI & Machine Learning</option>
+                                <option value="web-dev">Web Development</option>
+                                <option value="mobile-app">Mobile Applications</option>
+                                <option value="iot">IoT Solutions</option>
+                                <option value="fintech">FinTech</option>
+                                <option value="healthcare">Healthcare Innovation</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="experience" class="form-label">Experience Level</label>
+                            <select class="form-control" id="experience">
+                                <option value="beginner">Beginner</option>
+                                <option value="intermediate">Intermediate</option>
+                                <option value="advanced">Advanced</option>
+                                <option value="expert">Expert</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="terms" required>
+                                <label class="form-check-label" for="terms">
+                                    I agree to the <a href="#" class="text-decoration-none">Terms and Conditions</a>
+                                </label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="submit" class="btn btn-primary" form="registrationForm">
+                        <i class="fas fa-paper-plane"></i> Register Now
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Success Modal -->
+    <div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="successModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-success text-white">
+                    <h5 class="modal-title" id="successModalLabel">Registration Successful!</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <i class="fas fa-check-circle text-success" style="font-size: 4rem; margin-bottom: 20px;"></i>
+                    <h4>Welcome to Elite2k24!</h4>
+                    <p>Your registration has been successfully submitted and a confirmation email with "You Are Selected" message has been sent to your email address!</p>
+                    <p class="text-muted">Event Date: March 15-17, 2024</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" data-bs-dismiss="modal">Got it!</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- AOS Animation JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+    <!-- EmailJS SDK -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    
+    <!-- Initialize EmailJS -->
+    <script>
+        (function() {
+            // Initialize EmailJS with your public key
+            // Replace 'YOUR_PUBLIC_KEY' with your actual EmailJS public key
+            // For now, we'll use a placeholder and handle the case when EmailJS is not configured
+            try {
+                emailjs.init('YOUR_PUBLIC_KEY');
+            } catch (error) {
+                console.log('EmailJS not configured. Using fallback registration.');
+            }
+        })();
+    </script>
+
+    <script src="./script.js"></script>
+</body>
+</html>
